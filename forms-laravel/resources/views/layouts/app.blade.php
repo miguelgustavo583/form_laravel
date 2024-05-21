@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ETEC ZONA LESTE</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
     <style>
         html, body {
             height: 100%;
@@ -31,7 +32,15 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/">ETEC ZONA LESTE</a>
+        <script src="https://cdn.lordicon.com/lordicon.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/eeouelif.json"
+    trigger="loop"
+    delay="1000"
+    colors="primary:#ffffff,secondary:#ffffff"
+    style="width:50px;height:50px">
+</lord-icon> 
+            <br><a class="navbar-brand" href="/">ETEC ZONA LESTE</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

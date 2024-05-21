@@ -33,7 +33,15 @@
                     <option value="outro">Outro</option>
                 </select>
             </div>
-            <button type="submit" class="btn btn-dark">Enviar</button>
+            <div class="d-flex justify-content-start">
+                <lord-icon
+                    src="https://cdn.lordicon.com/dangivhk.json"
+                    trigger="click"
+                    stroke="bold"
+                    style="width:50px;height:50px;cursor:pointer;"
+                    onclick="this.closest('form').submit()">
+                </lord-icon>
+            </div>
         </form>
 
         <!-- Verificar se há dados submetidos -->
